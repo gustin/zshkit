@@ -1,5 +1,4 @@
-# I want /opt/local/bin to take precedence
-path=(/opt/local/bin $path)
+path=(/opt/ruby/bin /opt/local/bin /opt/local/sbin /usr/local/bin /usr/local/sbin /usr/local/include /usr/local/git/bin ~/dev/jruby/bin $EC2_HOME/bin /opt/local/lib/postgresql83/bin $path)
 
 # Allow MacPorts man pages
 manpath=($manpath /opt/local/man)

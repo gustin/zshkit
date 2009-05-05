@@ -5,3 +5,4 @@ if [[ $SHLVL < 3 ]]; then
 		source $f
 	done
 fi
+
