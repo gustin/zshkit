@@ -1,0 +1,5 @@
+alias dev="cd ~/dev"
+alias doc="cd ~/Documents"
+alias down="cd ~/Downloads"
+alias pi="sudo port -v install"
+
