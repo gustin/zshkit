@@ -45,9 +45,9 @@ if [[ -x `which git` ]]; then
           
           if [[ x$branch != x ]]; then
             push_status=$(git-need-to-push)
-            dirty_color=$fg[cyan]
+            dirty_color=$fg[cyangit put]
             if [[ $dirty = 1 ]] { dirty_color=$fg[magenta] }
-              [ x$branch != x ] && echo " %{$dirty_color%}$branch%{$reset_color%}$push_status"
+              [ x$branch != x ] && echo " %{$dirty_color%}$branch%{$reset_color%} $push_status"
           fi
         }
         
