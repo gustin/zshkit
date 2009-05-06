@@ -1,5 +1,19 @@
 alias dev="cd ~/dev"
 alias doc="cd ~/Documents"
+alias sites="cd ~/Sites"
 alias down="cd ~/Downloads"
 alias pi="sudo port -v install"
+
+# should reside in .gitconf for git completion to work
+#alias glc="git log ORIG_HEAD --stat --no-merges"
+#alias gco="git checkout"
+#alias gst= "git status"
+#alias gl= "git pull"
+#alias gp= "git push"
+#alias gpt= "git put"
+#alias gd= "git diff | mvim"
+#alias gc= "git commit -v"
+#alias gca= "git commit -v -a"
+#alias gb= "git branch"
+#alias gba= "git branch -a"
 

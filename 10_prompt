@@ -1,2 +1,6 @@
 setopt prompt_subst
-PROMPT='%{$reset_color%}`git-prompt`%(!.#.>) '
+setopt transient_rprompt
+
+PROMPT='%{$reset_color%}%(!.#.>) '
+RPS1='%{$reset_color%}`git-prompt`'
+
